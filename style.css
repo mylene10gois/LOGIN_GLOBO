@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    
+}
+
+.logo-conta-globo {
+    width: 200px; 
+    margin-bottom: 10px;
+}
+
+.logos img {
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #999; 
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0070d1;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px; 
+    
+}
+
+a {
+    color: #0070d1;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #666; 
+}
+
+.login-box p {
+    font-weight: bold;  
+    color: #333;  
+}
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: #bbbbbb; 
+}
+input::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666; 
+    font-style: italic;
+}
+.login-box p, .login-box a {
+    color: #999; 
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.login-box a {
+    color: #0070d1; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+.login-box a:hover {
+    text-decoration: underline;
+}
+.legal {
+    margin-top: 20px;
+    font-size: 9px; 
+    color: #666;
+}
+
+.legal a {
+    color: #0070d1; 
+    text-decoration: underline;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+.google-btn, .facebook-btn {
+    background-color: white;
+    border: 1px solid #0070d1;
+    color: #0070d1;
+    padding: 8px; 
+    font-weight: bold; 
+    margin-top: 10px;
+    
+     
+}
+
+.google-btn img, .facebook-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.google-btn:hover, .facebook-btn:hover {
+    border-color: #0070d1;
+    color: #0070d1;
+}
+.facebook-btn {
+    margin-bottom: 20px; 
+}
